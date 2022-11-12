@@ -75,7 +75,7 @@ class AllTools(HackingToolsCollection):
 if __name__ == "__main__":
     try:
         if system() == 'Linux':
-            fpath = "/home/hackingtoolpath.txt"
+            fpath = "Ninja-Tool/tools"
             if not os.path.exists(fpath):
                 os.system('clear')
                 # run.menu()
@@ -84,7 +84,7 @@ if __name__ == "__main__":
                         [1] Manual 
                         [2] Default
                 """)
-                choice = input("Z4nzu =>> ")
+                choice = input("Ninja Team =>> ")
 
                 if choice == "1":
                     inpath = input("Enter Path (with Directory Name) >> ")
