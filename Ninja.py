@@ -75,7 +75,7 @@ class AllTools(HackingToolsCollection):
 if __name__ == "__main__":
     try:
         if system() == 'Linux':
-            fpath = "$HOME/Ninja-Tool/tools"
+            fpath = "/home/hackingtoolpath.txt"
             if not os.path.exists(fpath):
                 os.system('clear')
                 # run.menu()
